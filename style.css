@@ -26,7 +26,7 @@ body {
   background-color: var(--white);
   color: var(--primary);
   height: 100vh;
-  height: 100svh;
+  height: 100dvh;
 }
 
 main {
