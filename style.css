@@ -82,13 +82,15 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-only {
-    visibility: hidden;
-  }
-
   .text-container {
     flex-direction: row;
     padding: 5.2rem 16.2rem;
+  }
+
+  .description {
+    line-height: 19.2px;
+    height: 225px;
+    width: 374px;
   }
 
   h1 {
