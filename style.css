@@ -45,6 +45,8 @@ footer {
   background-color: var(--primary);
   color: var(--white);
   padding: 1rem;
+  position: sticky;
+  bottom: 0;
 }
 
 header {
@@ -83,14 +85,12 @@ h1 {
 }
 
 section {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 45%;
   width: 80%;
   flex-direction: column;
