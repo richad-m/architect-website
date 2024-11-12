@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "engravers-mt";
+  src: url("../assets/fonts/engravers-mt.ttf");
+}
+
+@font-face {
+  font-family: "minion-pro";
+  src: url("../assets/fonts/minion-pro.ttf");
+}
+
+:root {
+  --primary: #27352a;
+  --white: #f6f3ec;
+  --footer-height: 100px;
+}

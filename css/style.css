@@ -1,24 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-@font-face {
-  font-family: "engravers-mt";
-  src: url("engravers-mt.ttf");
-}
-
-@font-face {
-  font-family: "minion-pro";
-  src: url("minion-pro-reg.ttf");
-}
-
-:root {
-  --primary: #27352a;
-  --white: #f6f3ec;
-  --footer-height: 100px;
-}
+@import url("./global.css");
+@import url("./typography.css");
 
 body {
   display: flex;
@@ -27,10 +8,6 @@ body {
   background-color: var(--white);
   color: var(--primary);
   width: 100%;
-}
-
-main {
-  flex-grow: 1;
 }
 
 .footer {
@@ -83,15 +60,6 @@ address {
   font-style: normal;
 }
 
-h1 {
-  font-weight: lighter;
-  font-size: 20px;
-  font-family: "engravers-mt", sans-serif;
-  width: 2rem;
-  white-space: nowrap;
-  width: 100%;
-}
-
 .text-container {
   display: flex;
   width: 87%;
@@ -103,10 +71,13 @@ h1 {
   font-size: 18px;
 }
 
+.description {
+  line-height: 24px;
+}
+
 /* Desktop style */
 @media screen and (min-width: 768px) {
   .description {
-    line-height: 24px;
     width: 90%;
   }
 
@@ -115,8 +86,6 @@ h1 {
   }
 
   h1 {
-    font-size: 26px;
-    text-align: center;
     margin-top: 4rem;
   }
 
