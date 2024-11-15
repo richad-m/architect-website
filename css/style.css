@@ -43,8 +43,9 @@ section {
 
 #cover-page {
   background: var(--primary);
-  height: calc(100vh - var(--footer-height));
-  height: calc(100dvh - var(--footer-height));
+  /* all screen minus footer height and padding */
+  height: calc(100vh - var(--footer-height) - 2rem);
+  height: calc(100dvh - var(--footer-height) - 2rem);
 }
 
 #cover-page > a {
@@ -87,8 +88,8 @@ address {
 
   #content {
     padding: 0 0 5rem 0;
-    /* all screen minus padding bottom and footer height */
-    height: calc(100vh - var(--footer-height) - 5rem);
+    /* all screen minus padding bottom and footer height and padding */
+    height: calc(100vh - var(--footer-height) - 5rem - 2rem);
     gap: 10rem;
   }
 }
